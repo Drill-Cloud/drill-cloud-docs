@@ -41,7 +41,6 @@ nav:
   - Тестирование: testing.md
   - Работа с документацией:
       - Git submodule: submodules.md
-      - Публикация MkDocs: deployment.md
 
 plugins:
   - search:
