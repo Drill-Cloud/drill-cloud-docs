@@ -38,7 +38,28 @@ nav:
   - Главная: index.md
   - Локальный контур: local-development.md
   - Сервисы и окружение: services.md
-  - Тестирование: testing.md
+  - Наблюдаемость:
+      - Карта и назначение: observability/index.md
+      - Как пользоваться Grafana: observability/grafana-ui.md
+      - Бизнес-дашборды:
+          - Обзор и доступность: observability/business/overview.md
+          - DEV, ALPHA и PROD: observability/business/environments.md
+          - Общие сервисы: observability/business/shared-services.md
+          - PostgreSQL: observability/business/postgresql.md
+      - Инфраструктура:
+          - Сервер: observability/infrastructure/host.md
+          - Docker-контейнеры: observability/infrastructure/containers.md
+          - Система мониторинга: observability/infrastructure/monitoring-stack.md
+          - Инфраструктурные логи: observability/infrastructure/logs.md
+      - Расследование инцидентов: observability/incident-response.md
+  - Автотестирование:
+      - Обзор: testing/index.md
+      - Ручной запуск в GitHub Actions: testing/github-actions.md
+      - Окружения и секреты: testing/environments.md
+      - Профили и покрытие: testing/profiles.md
+      - Тестовые данные: testing/test-data.md
+      - Результаты в ReportPortal: testing/reportportal.md
+      - Диагностика ошибок: testing/troubleshooting.md
   - Работа с документацией:
       - Git submodule: submodules.md
 

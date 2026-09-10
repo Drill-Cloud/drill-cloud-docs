@@ -2,6 +2,11 @@
 
 Единый источник общей документации Drill Cloud. Содержимое доступно в каталоге [docs](docs/index.md) и публикуется как сайт с помощью MkDocs Material.
 
+Основные эксплуатационные разделы:
+
+- [наблюдаемость и Grafana](docs/observability/index.md);
+- [автотестирование, GitHub Actions и ReportPortal](docs/testing/index.md).
+
 ## Локальный просмотр сайта
 
 Требуется Python 3.11 или новее.
@@ -18,4 +23,4 @@ py -m venv .venv
 .\.venv\Scripts\python -m mkdocs build --strict
 ```
 
-Инструкция по [сабмодулям](docs/submodules.md) находятся внутри документации.
+Инструкция по [сабмодулям](docs/submodules.md) находится внутри документации.
