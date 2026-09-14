@@ -38,6 +38,7 @@ nav:
   - Главная: index.md
   - Локальный контур: local-development.md
   - Сервисы и окружение: services.md
+  - Миграции БД: migrations.md
   - Наблюдаемость:
       - Карта и назначение: observability/index.md
       - Как пользоваться Grafana: observability/grafana-ui.md
